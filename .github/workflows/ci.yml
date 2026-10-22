@@ -32,4 +32,7 @@ jobs:
         run: .venv/bin/python -m unittest discover -s tests -v
 
       - name: Run smoke test
-        run: ./smoke_test.sh
+        # Invoke via bash: the script is not guaranteed to carry the
+        # executable bit in the repository, so ./smoke_test.sh can fail
+        # with "Permission denied" on a fresh checkout.
+        run: bash ./smoke_test.sh
