@@ -133,7 +133,7 @@ Two ways to add hooks:
 
 ## Protocol
 
-The fleet-level protocol this adapter implements — roles, dispatch flow, state mapping between A2A tasks and the caller's task ledger, reliability rules and production acceptance criteria — is documented in [docs/PROTOCOL.md](docs/PROTOCOL.md).
+The fleet-level protocol this adapter implements — roles, dispatch flow, state mapping between A2A tasks and the caller's task ledger, reliability rules and production acceptance criteria — is documented in [docs/PROTOCOL.md](docs/PROTOCOL.md) (中文版) and [docs/PROTOCOL_EN.md](docs/PROTOCOL_EN.md) (English version).
 
 ## Configuration
 
